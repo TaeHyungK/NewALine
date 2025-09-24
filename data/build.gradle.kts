@@ -16,6 +16,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":domain"))
+
     // network
     implementation(platform(libs.okhttp.bom))
     implementation(libs.okhttp)
