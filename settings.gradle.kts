@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "NewALine"
 include(":app")
- 
+include(":data")
+include(":domain")
